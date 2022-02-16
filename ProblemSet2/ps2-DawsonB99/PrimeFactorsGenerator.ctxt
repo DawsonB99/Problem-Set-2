@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PrimeFactorsGenerator
+comment0.text=\r\n\ \ \ Generator\ to\ return\ the\ prime\ factors\ of\ a\ given\ integer.\r\n\r\n\ \ \ @author\ Jim\ Teresco\r\n\ \ \ @version\ Spring\ 2020\r\n
+comment1.params=
+comment1.target=void\ advance()
+comment1.text=\r\n\ \ \ \ \ \ \ Advance\ to\ the\ next\ factor\ not\ yet\ returned\ that\ divides\ the\r\n\ \ \ \ \ \ \ remaining\ part\ of\ the\ number.\r\n
+comment2.params=n
+comment2.target=PrimeFactorsGenerator(int)
+comment2.text=\r\n\ \ \ \ \ \ \ Construct\ a\ generator\ for\ prime\ factors\ of\ the\ given\ number.\r\n\r\n\ \ \ \ \ \ \ @param\ n\ the\ number\ whose\ factors\ will\ be\ generated\r\n
+comment3.params=
+comment3.target=boolean\ hasNext()
+comment3.text=\r\n\ \ \ \ \ \ \ Return\ whether\ any\ factors\ remain\ to\ be\ returned.\r\n\r\n\ \ \ \ \ \ \ @return\ whether\ any\ factors\ remain\ to\ be\ returned\r\n
+comment4.params=
+comment4.target=java.lang.Integer\ next()
+comment4.text=\r\n\ \ \ \ \ \ \ Return\ the\ next\ factor.\r\n\r\n\ \ \ \ \ \ \ @return\ the\ next\ factor\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment5.text=\r\n\ \ \ \ \ \ \ main\ method\ to\ test\ the\ generator.\r\n\r\n\ \ \ \ \ \ \ @param\ args[0]\ the\ number\ whose\ factors\ should\ be\ printed\r\n
+numComments=6

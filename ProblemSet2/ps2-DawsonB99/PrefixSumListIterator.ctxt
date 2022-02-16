@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PrefixSumListIterator
+comment0.text=\r\nAn\ iterator\ to\ computes\ and\ returns\ prefix\ sums\ over\ a\ list\r\nof\ int\ values.\r\n\r\n@author\ Michael\ Scanlon\ Dawson\ Bridger\r\n@version\ Spring\ 2020\r\n
+comment1.params=a
+comment1.target=PrefixSumListIterator(java.util.List)
+comment1.text=\r\n\ \ \ \ Construct\ a\ new\ prefix\ sum\ iterator\ over\ the\ given\ list.\r\n\r\n\ \ \ \ @param\ a\ the\ array\ containing\ the\ values\r\n
+comment2.params=
+comment2.target=boolean\ hasNext()
+comment2.text=\r\n\ \ \ \ Return\ whether\ there\ are\ more\ elements\ that\ have\ not\ yet\ been\r\n\ \ \ \ part\ of\ the\ prefix\ sum\ sequence.\r\n\r\n\ \ \ \ @return\ whether\ there\ are\ more\ elements\ that\ have\ not\ yet\ been\r\n\ \ \ \ part\ of\ the\ prefix\ sum\ sequence\r\n
+comment3.params=
+comment3.target=java.lang.Integer\ next()
+comment3.text=\r\n\ \ \ \ Return\ the\ next\ value\ in\ the\ prefix\ sum\ sequence.\r\n\r\n\ \ \ \ @return\ the\ next\ value\ in\ the\ prefix\ sum\ sequence\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\r\n\ \ \ \ main\ method\ to\ test\ the\ PrefixSumListIterator.\r\n\r\n\ \ \ \ @param\ args[0]\ size\ of\ list\ to\ generate\r\n\ \ \ \ @param\ args[1]\ range\ of\ random\ values\r\n
+numComments=5
